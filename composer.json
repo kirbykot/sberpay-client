@@ -1,0 +1,24 @@
+{
+  "name": "kirbykot/sberpay-client",
+  "type": "library",
+  "description": "SberPay REST API client",
+  "keywords": ["sberbank", "sberpay"],
+  "homepage": "https://github.com/kirbykot/sberpay-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksim",
+      "email": "2618094@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1||^8",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kirbykot\\SberPay\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
